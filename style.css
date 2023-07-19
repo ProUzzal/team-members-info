@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.team-member-for {
+  text-align: center;
+}
+.team-member-for p {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.team-member-for h2{
+    margin-top: 0;
+}
+small {
+  color: red;
+}
+.team-member-img {
+  text-align: center;
+}
+.team-member-img img {
+  border-radius: 50%;
+  margin: 4rem 0rem;
+}
+span > svg {
+  height: 30px;
+  width: 30px;
+}
+.team-members {
+  display: flex;
+  width: 100%;
+}
+/* .single-card {
+} */
+.team-member-single {
+  width: 33.33%;
+  padding: 2rem;
+  color: white;
+}
+.inner-team {
+  position: relative;
+  box-shadow: 3px 4px 10px black;
+}
+.team-member-title {
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  border-top: 10px solid lightcoral;
+  border-radius: 4px;
+}
+
+.team-member-front {
+  background-color: black;
+}
+
+.team-member-hover {
+  background-color: rgb(10, 6, 6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 5px;
+}
+.team-member-contact {
+  padding: 1rem;
+}
+.single-contact p {
+  display: flex;
+  align-items: center;
+}
+span {
+  margin-right: 1rem;
+}
+.details p {
+  padding: 0 1.4rem;
+  margin-top: -14px;
+  text-align: justify;
+}
+
+/* hovering  */
+.team-member-single:hover .team-member-hover {
+  visibility: visible;
+  opacity: .9;
+}
+
+button{
+  background-color: greenyellow;
+}
+@media (max-width: 576px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+  .team-members {
+    display: block;
+  }
+
+  .team-member-single {
+    width: 95%;
+  
+  }
+  .team-member-hover {
+    width: 100%;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  .team-member-contact {
+    padding: 1rem;
+  }
+  .details p {
+    padding: 0 2rem;
+    /* margin-top: -14px; */
+    text-align: justify;
+  }
+  .team-member-for h2{
+    font-size: 1rem;
+  }
+}

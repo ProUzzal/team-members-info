@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    // function hideHover() {
+    //     // Get all elements with class "myElement"
+    //     var elements = document.querySelectorAll(".team-member-hover");
+
+    //     // Attach a click event listener to each element
+    //     elements.forEach(function (element) {
+    //         element.addEventListener("click", function (event) {
+    //             // "this" refers to the clicked element
+    //             var clickedElement = event.target;
+
+    //             // Add a CSS class to highlight the clicked element
+    //             clickedElement.style.visibility = "hidden";
+
+    //             // Do something with the clicked element, for example, display its content
+    //             // console.log("Clicked Element: ", clickedElement.textContent);
+    //         });
+    //     });
+    // }
+    function hideHover1() {
+        document.getElementById('card-1').style.visibility = 'hidden';
+        document.getElementById('card-2').style.visibility = 'visible';
+        document.getElementById('card-3').style.visibility = 'visible';
+        
+    }
+    function hideHover2() {
+        document.getElementById('card-2').style.visibility = 'hidden';
+        document.getElementById('card-1').style.visibility = 'visible';
+        document.getElementById('card-3').style.visibility = 'visible';
+
+    }
+    function hideHover3() {
+        document.getElementById('card-3').style.visibility = 'hidden';
+        document.getElementById('card-1').style.visibility = 'visible';
+        document.getElementById('card-2').style.visibility = 'visible';
+
+    }
+
+</script>
+
+<body>
+    <div class="container">
+
+
+        <div class="team-member-for">
+            <p>Team Members</p>
+            <small> <em>for</em></small>
+            <h2>PURCHASING / WAREHOUSE</h2>
+        </div>
+        <div class="team-members">
+
+            <div class="team-member-single single-card">
+                <div class="inner-team">
+                    <div class="team-member-front">
+                        <div class="team-member-img">
+                            <img src="4518031.jpg" alt="" height="200px" width="200px">
+
+                        </div>
+                        <div class="team-member-title">
+                            <h3>UZZAL AHMED</h3>
+                            <p>FORNT-END DEVELOPER</p>
+                        </div>
+                    </div>
+                    <!-- hover part  -->
+                    <div id="card-1" class="team-member-hover single-card">
+                        <button onclick="hideHover1()">X</button>
+                        <div class="team-member-title">
+                            <h3>UZZAL AHMED</h3>
+                            <p>FORNT-END DEVELOPER</p>
+                        </div>
+                        <div class="team-member-contact">
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+                                    </span>uzzalahmed0001@gmail.com</p>
+                            </div>
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                        </svg>
+                                    </span>6 months in service</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>He is very honest and hard working person. He is a quick learner. Since from his journey
+                                in
+                                our company he has done a lot of awesome task and helped our company to grow more.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="team-member-single single-card">
+                <div class="inner-team">
+                    <div class="team-member-front">
+                        <div class="team-member-img">
+                            <img src="104178624_1443891792460724_7247444249570124792_n.jpg" height="200px" width="200px"
+                                alt="">
+
+                        </div>
+                        <div class="team-member-title">
+                            <h3>SHAMIM AHMED</h3>
+                            <p>ACCOUNTS MANAGER</p>
+                        </div>
+                    </div>
+                    <!-- hover part  -->
+                    <div id="card-2" class="team-member-hover single-card">
+                        <button onclick="hideHover2()">X</button>
+                        <div class="team-member-title">
+                            <h3>SHAMIM AHMED</h3>
+                            <p>ACCOUNTS MANAGER</p>
+                        </div>
+                        <div class="team-member-contact">
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+                                    </span>shamimahmed@gmail.com</p>
+                            </div>
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                        </svg>
+                                    </span>4 Years in service</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>He is very honest and hard working person. He is a quick learner. Since from his journey
+                                in
+                                our company he has done a lot of awesome task and helped our company to grow more.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="team-member-single single-card">
+                <div class="inner-team">
+                    <div class="team-member-front">
+                        <div class="team-member-img">
+                            <img src="doe.jpg" alt="" height="200px" width="200px">
+
+                        </div>
+                        <div class="team-member-title">
+                            <h3>JHON DOE</h3>
+                            <p>TEAM LEADER</p>
+                        </div>
+                    </div>
+                    <!-- hover part  -->
+                    <div id="card-3" class="team-member-hover single-card">
+                        <button onclick="hideHover3()" class="btn-3">X</button>
+                        <div class="team-member-title">
+                            <h3>JHON DOE</h3>
+                            <p>TEAM LEADER</p>
+                        </div>
+                        <div class="team-member-contact">
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+                                    </span>joebiden1@gmail.com</p>
+                            </div>
+                            <div class="single-contact">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                        </svg>
+                                    </span>3 Years in service</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>He is very honest and hard working person. He is a quick learner. Since from his journey
+                                in
+                                our company he has done a lot of awesome task and helped our company to grow more.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team members hover  -->
+        <!-- 3 -->
+
+
+
+    </div>
+
+</body>
+
+</html>
